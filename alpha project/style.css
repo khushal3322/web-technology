@@ -1,0 +1,301 @@
+body{
+    font-family: 'Source Sans 3', sans-serif;
+    background-attachment: scroll, fixed;
+    background-image: url(./images/background.jpg) ;
+    background-size: 100% 650px;
+    background-repeat: no-repeat;
+    /* background-color: #f5f5f5; */
+    background-color: #f3f6fa;
+   }
+#OptionDiv ul{
+    display: inline;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#HeaderSection{
+    width: 100%;
+    color: white;
+    margin-top: 18px;
+}
+#LogoDiv{
+    width: 30%;
+    display: inline;
+}
+#LogoDiv h1{
+    display: inline;
+    font-size: 17px;
+    margin-left: 18px;
+    
+}
+#LogoDiv h1 span{
+    font-weight: 100;
+}
+#OptionDiv{
+    width: 69%;
+    display: inline;
+    
+   
+}
+#OptionDiv ul li{
+    display:inline;
+    /* padding: 10px; */
+    margin-right: 96px;
+
+}
+#signup{
+    border: 2px solid white;
+    padding: 5px 17px;
+    border-radius: 5px;
+   
+}
+/* 
+bodysection start here */
+
+#BodySection{
+    color: white;
+    text-align: center;
+    margin-top: 120px;
+}
+
+#BodySection h1{
+    font-size: 60px;
+    font-weight: 550;
+}
+
+#BodySection p{
+    font-size: 22px;
+    margin-top: -30px;
+}
+#BodySection ul li{
+    font-size: 17px;
+    display: inline;
+    border: 2px solid white;
+    padding: 11px 70px;
+    border-radius: 5px;
+
+   
+}
+ #SignUp2{
+   
+    background-color: white;
+    
+    color: gray;
+    margin-right: 15px;
+    font-weight: 900;
+}
+#BodySection ul{
+    margin-top: 50px;
+}
+
+
+/* 
+description section start here */
+
+#DescripSection{
+    background-color: white;
+    width: 78%;
+    margin: 0 auto;
+    margin-top: 120px;
+    border-radius: 6px;
+    color: #747474;
+    text-align: center;
+}
+#DescripSection p{
+    font-size: 23px;
+    padding-top: 47px;
+    border-top: 1px solid #747474;
+    display: inline-block;
+}
+#DescripSection img{
+
+    width: 100%;
+    margin-top: 48px;
+    border-radius: 6px;
+}
+#DescripSection h1{
+    text-align: center;
+    font-size: 38px;
+    padding-top: 81px;
+}
+
+
+
+/* Icon section start from here */
+
+#IconSection{
+    background-color: white;
+    width: 78%;
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 6px;
+    
+}
+#IconSection div{
+    width: 49%;
+    display: inline-block;
+    text-align: center;
+}
+#IconSection h1{
+   font-weight: 100px;
+}
+#IconDiv{
+    font-size: 500px;
+}
+
+#IconDiv1 i{
+    border: 0px solid black;
+    border-radius: 100%;
+    padding: 30px;
+    color: white;
+    background-color: #e89980;
+    font-size: 50px;
+
+}
+
+#IconDiv2 i{
+    border: 0px solid black;
+    border-radius: 100%;
+    padding: 30px;
+    color: white;
+    background-color: #7fcdb8;
+    font-size: 50px;
+}
+
+#IconDiv3 i{
+    border: 0px solid black;
+    border-radius: 100%;
+    padding: 30px;
+    color: white;
+    background-color: #90b0ba;
+    font-size: 5 0px;
+}
+
+#IconDiv4 i{
+    border: 0px solid black;
+    border-radius: 100%;
+    padding: 30px;
+    color: white;
+    font-size: 50px;
+    background-color: #e5cb95;
+}
+
+
+/* nature section start here */
+#NatureSection{
+
+    width: 78%;
+    margin: 0 auto;
+    margin-top: 35px;
+    color: #848484;
+    
+}
+
+#NatureSection Div{
+    width: 47%;
+    display: inline-block;
+    background-color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding-bottom: 60px;
+}
+
+#NatureSection Div:nth-child(1){
+    margin-right: 44px;
+    color: #747474;
+}
+
+#NatureSection img{
+    width: 100%;
+    border-radius: 6px 6px 0px 0px;
+ 
+}
+#NatureSection p{
+    margin-bottom: 70px;
+}
+#NatureSection a{
+   
+    border: 1px solid black;
+    padding: 15px 35px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+
+
+/* Footer start from here */
+
+#FooterSection{
+   
+    
+}
+#FooterDiv1{
+    background-color: #e89980;
+    width: 100%;
+    margin-top: 100px;
+    color: whitesmoke;
+    text-align: center;
+    height: 320px;
+}
+
+#FooterDiv1 h1{
+    font-size: 36px;
+    padding-top: 60px;
+}
+
+#FooterDiv1 p{
+    font-size: 20px;
+}
+#FooterDiv1 form {
+    margin-top: 40px;
+}
+#FooterDiv1 form input{
+    padding: 20px 75px;
+    border-radius: 5px;
+    border:none;
+    background-color: #eba893;
+    margin-right: 25px;
+}
+#FooterDiv1 form input::placeholder{
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
+
+}
+#FooterDiv1 form button{
+    background-color: white;
+    border: none;
+    padding: 20px 35px;
+    border-radius: 5px;
+    color: #e89980;
+    font-size: 15px;
+}
+#FooterDiv2{
+    text-align: center;
+    color: #c6c6c6;
+
+}
+#SocialMedia i{
+    font-size: 36px;
+    margin: 0px 10px;
+    margin-top: 60px;
+}
+#FooterDiv2 div ul li{
+    display: inline-block;
+    padding: 0px 20px;
+    margin: 23px 0px 60px 0px;
+    text-decoration-line: underline;
+    text-underline-position: below;
+}
+#FooterDiv div ul li:nth-child(1){
+    border-right: 1px solid #c6c6c6;
+
+}
+#FooterDiv div ul li:nth-child(2){
+    border-right: 1px solid #c6c6c6;
+
+}
+
+
+
